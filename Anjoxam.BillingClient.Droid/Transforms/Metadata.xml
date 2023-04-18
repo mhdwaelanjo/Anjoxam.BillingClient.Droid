@@ -1,0 +1,27 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+	<!-- namespaces -->
+	<attr path="/api/package[@name='com.android.billingclient']" name="managedName">Android.BillingClient</attr>
+	<attr path="/api/package[@name='com.android.billingclient.api']" name="managedName">Android.BillingClient.Api</attr>
+	<attr path="/api/package[@name='com.android.billingclient.util']" name="managedName">Android.BillingClient.Util</attr>
+	<attr path="/api/package[@name='com.android.vending.billing']" name="managedName">Android.Vending.Billing</attr>
+
+	<!-- These were made into enums -->
+	<remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.ChildDirected']" />
+	<remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='BillingClient.UnderAgeOfConsent']" />
+	<remove-node path="/api/package[@name='com.android.billingclient.api']/interface[@name='Purchase.PurchaseState']" />
+
+	<attr path="/api/package[@name='com.android.billingclient.api']/class[@name='BillingClient']/method[@name='consumeAsync']" name="managedName">Consume</attr>
+	<attr path="/api/package[@name='com.android.billingclient.api']/class[@name='BillingClient']/method[@name='queryPurchaseHistoryAsync']" name="managedName">QueryPurchaseHistory</attr>
+	<attr path="/api/package[@name='com.android.billingclient.api']/class[@name='BillingClient']/method[@name='querySkuDetailsAsync']" name="managedName">QuerySkuDetails</attr>
+
+	<remove-node path="/api/package[@name='com.android.billingclient.api']/class[@name='BillingClient']/method[@name='getConnectionState' and count(parameter)=0]" />
+
+</metadata>

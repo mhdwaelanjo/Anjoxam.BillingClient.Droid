@@ -6,5 +6,7 @@ Billing Client SDK for .NET Android (formerly Xamarin.Android) bindings for Andr
 
 Google Play's billing system is a service that enables you to sell digital products and content in your Android app.
 https://developer.android.com/google/play/billing
-
+ 
+Getting Started : https://developer.android.com/google/play/billing/getting-ready
+ 
 Star on Github if this project helps you: https://github.com/mhdwaelanjo/Anjoxam.BillingClient.Droid

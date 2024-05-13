@@ -7,19 +7,19 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjoxam.BillingClient.Droid</PackageId>
-		<PackageVersion>6.2.0</PackageVersion>
-		<AssemblyVersion>6.2.0</AssemblyVersion>
-		<FileVersion>6.2.0</FileVersion>
-		<Version>6.2.0</Version>
+		<PackageVersion>6.2.1</PackageVersion>
+		<AssemblyVersion>6.2.1</AssemblyVersion>
+		<FileVersion>6.2.1</FileVersion>
+		<Version>6.2.1</Version>
 		<Title>Anjo Billing Client Droid</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjoxam.BillingClient.Droid</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Billing Client</Description>
-		<PackageReleaseNotes>Billing Client v6.2.0</PackageReleaseNotes>
+		<PackageReleaseNotes>Billing Client v6.2.1</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
-		<PackageTags>Xamarin.Android, Billing Client, Google Play Billing, In-AppBilling, In-App Purchases</PackageTags>
+		<PackageTags>Xamarin.Android, NET MAUI, Billing Client, Google Play Billing, In-AppBilling, In-App Purchases</PackageTags>
 		<Summary>Google Play's billing system is a service that enables you to sell digital products and content in your Android app.</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\billing-6.2.0.aar" />
+	  <None Remove="Jars\billing-6.2.1.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">

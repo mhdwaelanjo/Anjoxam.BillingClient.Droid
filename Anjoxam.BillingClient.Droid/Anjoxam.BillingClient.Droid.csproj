@@ -7,17 +7,17 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjoxam.BillingClient.Droid</PackageId>
-		<PackageVersion>6.2.1</PackageVersion>
-		<AssemblyVersion>6.2.1</AssemblyVersion>
-		<FileVersion>6.2.1</FileVersion>
-		<Version>6.2.1</Version>
+		<PackageVersion>7.0.0</PackageVersion>
+		<AssemblyVersion>7.0.0</AssemblyVersion>
+		<FileVersion>7.0.0</FileVersion>
+		<Version>7.0.0</Version>
 		<Title>Anjo Billing Client Droid</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjoxam.BillingClient.Droid</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Billing Client</Description>
-		<PackageReleaseNotes>Billing Client v6.2.1</PackageReleaseNotes>
+		<PackageReleaseNotes>Billing Client v7.0.0</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, NET MAUI, Billing Client, Google Play Billing, In-AppBilling, In-App Purchases</PackageTags>
 		<Summary>Google Play's billing system is a service that enables you to sell digital products and content in your Android app.</Summary>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\billing-6.2.1.aar" />
+	  <None Remove="Jars\billing-7.0.0.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -46,6 +46,7 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
+	  <PackageReference Include="Xamarin.AndroidX.Activity" Version="1.9.0" />
 	  <PackageReference Include="Xamarin.Google.Android.DataTransport.TransportApi" Version="3.1.0" />
 	  <PackageReference Include="Xamarin.Google.Android.DataTransport.TransportBackendCct" Version="3.2.0" />
 	  <PackageReference Include="Xamarin.Google.Android.DataTransport.TransportRuntime" Version="3.2.0" />

@@ -4,7 +4,7 @@
 Billing Client SDK for .NET Android (formerly Xamarin.Android) bindings for AndroidX library - Wael Anjo
 ---------------------------------
 
-[![NuGet](https://buildstats.info/nuget/Anjoxam.BillingClient.Droid)](https://www.nuget.org/packages/Anjoxam.BillingClient.Droid/)
+[![NuGet Version](https://img.shields.io/nuget/v/Anjoxam.BillingClient.Droid)](https://www.nuget.org/packages/Anjoxam.BillingClient.Droid) [![GitHub License](https://img.shields.io/github/license/mhdwaelanjo/Anjoxam.BillingClient.Droid)](https://github.com/mhdwaelanjo/Anjoxam.BillingClient.Droid/blob/master/LICENSE)
 
 Google Play's billing system is a service that enables you to sell digital products and content in your Android app.
 https://developer.android.com/google/play/billing
